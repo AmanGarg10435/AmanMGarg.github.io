@@ -295,7 +295,7 @@ body {
 }
 
 #profile {
-    width: 100%;
+    border: 10px solid #c16014;
 }
 
 #information{
@@ -314,7 +314,7 @@ body {
 
 #info-heading {
     text-align: center;
-    font-size: 400%;
+    font-size: 100%;
 }
 
 #info-caption{
