@@ -1,0 +1,348 @@
+body {
+    margin:0 !important;
+    padding:0 !important;
+    width: 100%;
+    background-color: #FFFFF4;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+
+#topbar {
+
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    right:0;
+    left: 10vh;
+    height: 5vh;
+    background-color:#c16014;
+    z-index: 1;
+
+
+}
+
+.dropbtn {
+    color: #FFFFF4;
+    font-size: 15px;
+
+}
+
+
+
+#complete-title{
+    margin: 0 0 0 10vw;
+    padding: 3vh 0 0 0;
+}
+
+#title-background {
+    position: absolute;
+    left:0;
+    top:0;
+    width: 15vw;
+    /*height: 8vh;*/
+    height: 5vh;
+    background-color:black;
+    z-index: -1;
+}
+#topbar > *{
+    margin: 0 6% 0 0;
+}
+
+
+
+#mountain {
+    width: 100%;
+}
+
+#title {
+    color:#d4a67f;
+    padding: 0 0 20% /* <-0 */ 60%;
+    align-items: center;
+    font-size: 50px;
+}
+
+
+
+#image {
+    justify-content: center;
+    align-items: center;    
+}
+
+.programming .dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.programming .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.programming .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    width: 150px;
+    z-index: 1;
+
+}
+
+.programming .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.programming .dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.2)
+}
+.programming .dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+
+.service .dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.service .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.service .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    width: 150px;
+    z-index: 1;
+
+}
+
+.service .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.service .dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.2)
+}
+.service .dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+.badminton .dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.badminton .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.badminton .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    width: 150px;
+    z-index: 1;
+
+}
+
+.badminton .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.badminton .dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.2)
+}
+.badminton .dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+.debate .dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.debate .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.debate .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    width: 150px;
+    z-index: 1;
+
+}
+
+.debate .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.debate .dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.2)
+}
+.debate .dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+.illustrator .dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.illustrator .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.illustrator .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    width: 150px;
+    z-index: 1;
+
+}
+
+.illustrator .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.illustrator .dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.2)
+}
+.illustrator .dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+
+.quote-text{
+    color:#d4a67f !important;
+    font-size: 20px;
+}
+
+#quote{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 14vh;
+    bottom: -50vh;
+    margin: 0 25vw;
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+
+
+@keyframes appear {
+    100%{bottom: 7vh;}
+}
+
+#profile {
+    width: 100%;
+}
+
+#information{
+    display: grid;
+    margin: 0 3vw;
+    line-height: 300%;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10%;
+    justify-content: center;
+
+}
+
+#information-text{
+    display: inline-block;
+}
+
+#info-heading {
+    text-align: center;
+    font-size: 400%;
+}
+
+#info-caption{
+    text-align: center;
+    color:#c16014;
+    font-size:150%;
+}
+
+
+#contact-info {
+    background-color: black;
+    height: 5vh;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: 2vh 20vw;
+    color: white;
+ 
+
+}
+
+#contact-info a{
+    color: #c16014;
+    text-decoration: none;
+}
+
+#contact-info p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
