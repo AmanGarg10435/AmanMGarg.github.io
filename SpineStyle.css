@@ -30,7 +30,7 @@ body {
 
 .dropbtn {
     color: #FFFFF4;
-    font-size: 15px;
+    font-size: 2000px;
 
 }
 
@@ -43,12 +43,6 @@ body {
 
 #mountain {
     width: 100%;
-}
-
-#title {
-    color:#d4a67f;
-    align-items: center;
-    font-size: 50px;
 }
 
 
