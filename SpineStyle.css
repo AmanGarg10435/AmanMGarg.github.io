@@ -21,6 +21,7 @@ body {
     right:0;
     left: 10vh;
     height: 5vh;
+    width: 100vw;
     background-color:#c16014;
     z-index: 1;
 
@@ -45,7 +46,6 @@ body {
     left:0;
     top:0;
     width: 15vw;
-    /*height: 8vh;*/
     height: 5vh;
     background-color:black;
     z-index: -1;
@@ -62,7 +62,6 @@ body {
 
 #title {
     color:#d4a67f;
-    padding: 0 0 2vw /* <-0 */ 60%;
     align-items: center;
     font-size: 50px;
 }
