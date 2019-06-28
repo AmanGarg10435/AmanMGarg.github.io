@@ -30,7 +30,7 @@ body {
 
 .dropbtn {
     color: #FFFFF4;
-    font-size: 2vh;
+    font-size: 1vw;
 
 }
 
@@ -44,6 +44,7 @@ body {
 #mountain {
     width: 100%;
 }
+
 
 
 
@@ -245,8 +246,8 @@ body {
 
 
 .quote-text{
-    color:#d4a67f !important;
-    font-size: 20px;
+    color:#c16014 !important;
+    font-size: 1vw;
 }
 
 #quote{
@@ -280,7 +281,6 @@ body {
 #information{
     display: grid;
     margin: 0 3vw;
-    line-height: 300%;
     grid-template-columns: 40% 40%;
     grid-gap: 10%;
     justify-content: center;
@@ -293,13 +293,18 @@ body {
 
 #info-heading {
     text-align: center;
-    font-size: 400%;
+    font-size: 5vw;
 }
 
 #info-caption{
     text-align: center;
     color:#c16014;
-    font-size:150%;
+    font-size: 2vw;
+}
+
+#info-main {
+    line-height: 200%;
+    font-size: 1vw;
 }
 
 
@@ -311,7 +316,7 @@ body {
     right:0;
     margin: 2vh 10vw;
     color: white;
- 
+    font-size: 1vw;
 
 }
 
