@@ -35,21 +35,6 @@ body {
 }
 
 
-
-#complete-title{
-    margin: 0 0 0 10vw;
-    padding: 3vh 0 0 0;
-}
-
-#title-background {
-    position: absolute;
-    left:0;
-    top:0;
-    width: 15vw;
-    height: 5vh;
-    background-color:black;
-    z-index: -1;
-}
 #topbar > *{
     margin: 0 6% 0 0;
 }
