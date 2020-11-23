@@ -6,6 +6,7 @@ body{
     width: 100vw !important;
     overflow-x: hidden;
     color: #1fa727;
+    height: fit-content;
 }
 h2{
     margin: 0;
@@ -119,4 +120,49 @@ h2{
     width: 100vw;
     height: 40vh;
     position: relative;
+}
+
+@media (max-width: 600px){
+    .logo{
+        width: 15vw;
+    }
+    .coming-soon{
+        font-size: 8px !important;
+    }
+    .big-banner{
+        font-size: 30px !important;
+    }
+    .screens{
+        margin-top: 35vh;
+    }
+    .slogan2 > *{
+        margin: 4vh 0 4vh 0;
+    }
+
+    .buttongrid{
+        overflow-x: hidden;
+    }
+    .button-text{
+        display: none
+    }
+    .buttongrid{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .button-image{
+        width: 30vw;
+    }
+
+    .bottom-buttons{
+        width: 40vw;
+        margin: 5vw 0 10vh 0;
+
+    }
+
+    .bottom-blob-container{
+        display: none;
+    }
+
+
+
 }
