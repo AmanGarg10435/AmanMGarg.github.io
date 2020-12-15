@@ -116,6 +116,37 @@ h2{
     margin: 1vw;
 }
 
+.button-bottom{
+    width: 24vw;
+    margin: 1vw;
+    border-radius: 16px;
+    height: 8vh;
+    border-style: none;
+    box-shadow: 5px 5px 10px gray,
+        -5px -5px 10px  white;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+
+#download{
+    background-color: #1fa727;
+    color: white;
+}
+
+#download:hover{
+    background-color: #1fa72730;
+    cursor: pointer;
+}
+
+#demo:hover{
+    background-color: #1fa72730;
+    cursor: pointer;
+
+}
+
+
 .bottom-blob-container{
     width: 100vw;
     height: 40vh;
@@ -153,6 +184,8 @@ h2{
         width: 30vw;
     }
 
+
+
     .bottom-buttons{
         width: 40vw;
         margin: 5vw 0 10vh 0;
@@ -162,7 +195,6 @@ h2{
     .bottom-blob-container{
         display: none;
     }
-
 
 
 }
