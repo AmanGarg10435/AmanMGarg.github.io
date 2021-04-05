@@ -6,7 +6,7 @@ body{
     width: 100vw !important;
     overflow-x: hidden;
 /*     color: #1fa727; */
-    color: red;
+    color: blue;
     height: fit-content;
 }
 h2{
@@ -189,7 +189,7 @@ h2{
 
     .button-bottom{
         width: 40vw;
-        margin: 5vw 0 10vh 0;
+        margin: 5vh 1vw 10vh 1vw;
     }
 
     .bottom-blob-container{
