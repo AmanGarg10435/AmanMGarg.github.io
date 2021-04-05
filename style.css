@@ -6,7 +6,7 @@ body{
     width: 100vw !important;
     overflow-x: hidden;
     /* color: #1fa727; */
-    color: red;
+    color:red;
     height: fit-content;
 }
 h2{
@@ -163,7 +163,7 @@ h2{
     }
     .screens{
         margin-top: 35vh;
-        height: 80vh !important;
+        height: 50vh !important;
     }
     .slogan2 > *{
         margin: 4vh 0 4vh 0;
