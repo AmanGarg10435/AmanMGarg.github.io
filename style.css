@@ -189,7 +189,7 @@ h2{
     .button-bottom{
         width: 40vw;
         margin: 5vw 0 10vh 0;
-        color: red;
+        color: red !important;
 
     }
 
