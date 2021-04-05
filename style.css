@@ -5,7 +5,7 @@ body{
     background-color: #eef0ee;
     width: 100vw !important;
     overflow-x: hidden;
-/*     color: #1fa727; */
+    /* color: #1fa727; */
     color: blue;
     height: fit-content;
 }
@@ -112,10 +112,6 @@ h2{
     bottom: 0;
 }
 
-.bottom-buttons{
-    width: 24vw;
-    margin: 1vw;
-}
 
 .button-bottom{
     width: 24vw;
@@ -128,6 +124,7 @@ h2{
     outline: none;
     font-size: 18px;
     letter-spacing: 1px;
+    
 
 }
 
@@ -185,11 +182,10 @@ h2{
         width: 30vw;
     }
 
-
-
     .button-bottom{
-        width: 40vw;
+        width: 30vw;
         margin: 5vh 1vw 10vh 1vw;
+
     }
 
     .bottom-blob-container{
