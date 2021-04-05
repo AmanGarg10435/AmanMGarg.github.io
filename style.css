@@ -150,7 +150,7 @@ h2{
     position: relative;
 }
 
-@media (max-width: 600px){
+@media only screen{
     .logo{
         width: 15vw;
     }
