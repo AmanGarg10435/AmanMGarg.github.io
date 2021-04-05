@@ -5,8 +5,7 @@ body{
     background-color: #eef0ee;
     width: 100vw !important;
     overflow-x: hidden;
-    /* color: #1fa727; */
-    color: blue;
+    color: #1fa727;
     height: fit-content;
 }
 h2{
